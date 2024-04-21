@@ -6,12 +6,13 @@ function Home() {
   return (
     <div className="container">
       <p>Welcom to the world of Sushi</p>
+
       <Link
         to="/menu"
         className="button"
         
       >
-        <button type="button" className="btn btn-light" style={{ fontSize: "20px" }}>
+        <button type="button" className="btn btn-light" style={{ fontSize: "30px" }}>
           Order Now
         </button>
       </Link>
