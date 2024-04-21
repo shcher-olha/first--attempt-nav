@@ -1,14 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 function Home() {
   return (
-    <div>
-      <h1>Home page</h1>
-      <h2>Main page</h2>
-      <Link to="/menu">Go to users Page</Link>
+    <div className="container">
+      <p>Welcom to the world of Sushi</p>
+      <Link
+        to="/menu"
+        className="button"
+        
+      >
+        <button type="button" className="btn btn-light" style={{ fontSize: "20px" }}>
+          Order Now
+        </button>
+      </Link>
+
+      <footer/>
     </div>
-    
   );
 }
 
