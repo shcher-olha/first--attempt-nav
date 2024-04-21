@@ -5,6 +5,7 @@ function Home() {
   return (
     <div>
       <h1>Home page</h1>
+      <h2>Main page</h2>
       <Link to="/menu">Go to users Page</Link>
     </div>
     
