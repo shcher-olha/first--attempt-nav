@@ -16,7 +16,7 @@ function Home() {
         </button>
       </Link>
 
-      <footer/>
+      
     </div>
   );
 }
