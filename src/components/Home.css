@@ -1,5 +1,5 @@
 .container p  {
-  margin-top: 150px;
+  margin-top: 200px;
   color: white;
   font-size: 80px;
   text-align: center;
@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   text-decoration: none;
+  margin-top: 70px;
 }
 
 @media (max-width: 576px) {
