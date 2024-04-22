@@ -1,7 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import sushiImage from "../images/Sushi.jpg";
-import { Link } from "react-router-dom";
+
 
 function Menu() {
   return (
