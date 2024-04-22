@@ -1,15 +1,25 @@
 import React from "react";
-import "./Menu.css"
+import "./Menu.css";
+import sushiImage from "../images/Sushi.jpg";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
     <div className="container">
-      <h1>1</h1>
-      <h2>2</h2>
-      <h2>3</h2>
-      <h2>Menu page</h2>
+      <h1>MENU</h1>
+      <h2>Sushi</h2>
       
-      
+      <div className="row">
+        <div className="col-md-6">
+          <img
+            src={sushiImage}
+            className="image"
+            alt="Sushi"
+            title="photo-sushi"
+          />
+        </div>
+        
+      </div>
     </div>
   );
 }
