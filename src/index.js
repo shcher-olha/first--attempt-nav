@@ -7,7 +7,10 @@ import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-
+// Обязательно оборачиваем компонент в <BrowserRouter> для того чтобы работал маршрутизатор
+// он сай главный в иеархии и также не забываем импортировать
+// и так же импортируем бутстрап css abd js
+// и реакт роутер дом так же ! и проверяем в депенденси
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

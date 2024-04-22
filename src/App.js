@@ -7,10 +7,14 @@ import Service from "./components/Service";
 import Navbar from "./components/Navbar";
 
 
+// оборачиваем для того чтобы навбар был на всех страницах
+// прописываем маршрут exact для того чтобы указать какая страница главная
+// для каждой страницы прописываем маршрут
+
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navbar />}>
+      <Route path="/" element={<Navbar />}> 
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
