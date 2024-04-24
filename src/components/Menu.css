@@ -1,8 +1,15 @@
 .container h1 {
   color: white;
 }
+.container h3 {
+  color: blue;
+  
+  margin: 0;
+}
 
-.image {
-  width: 80%;
-  height: 80%;
+.container p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
 }
