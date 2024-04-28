@@ -2,14 +2,15 @@
   color: white;
 }
 .container h3 {
-  color: blue;
-  
+  color: yellow;
   margin: 0;
 }
 
-.container p {
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  margin: 0;
+
+.container .img-fluid {
+  width: auto;
+  height: 70%;
+}
+.container .footer {
+  margin-top: 100px;
 }
