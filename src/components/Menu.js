@@ -9,11 +9,14 @@ import Footer from "./Footer";
 function Menu() {
   return (
     <div className="container">
-      <h1 className="text-center">MENU</h1>
-      <h2 className="text-center">Sushi</h2>
+      <div className="title">
+        <h1 className="text-center">MENU</h1>
+        <h2 className="text-center">Sushi</h2>
+      </div>
+
       <div className="row mt-5">
         <div className="col-sm-4">
-          <h3 className="text-center title mt-5">Rolls</h3>
+          <h3 className="text-center mt-5">Rolls</h3>
           <img
             src={sushiImage}
             className="img-fluid d-block p-2 rounded"
@@ -70,11 +73,9 @@ function Menu() {
       </div>
       <div className="row">
         <div className="col footer">
-          <Footer/>
+          <Footer />
         </div>
-        
       </div>
-      
     </div>
   );
 }
