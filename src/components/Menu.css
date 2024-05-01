@@ -21,5 +21,8 @@
   .container .title {
     margin-top: 250px;
   }
+  .container h2 {
+    margin-bottom: -50px;
+  }
   
 }

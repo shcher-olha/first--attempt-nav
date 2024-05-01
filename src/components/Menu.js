@@ -23,7 +23,7 @@ function Menu() {
             alt="Sushi"
             title="photo-sushi"
           />
-          <Link to="/home" className="button mt-2">
+          <Link to="/addmenu" className="button mt-2">
             <button
               type="button"
               className="btn btn-light mt-2 mx-auto"

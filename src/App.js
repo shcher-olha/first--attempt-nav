@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import About from "./components/About";
 import Service from "./components/Service";
 import Navbar from "./components/Navbar";
+import Addmenu from "./components/Addmenu";
 
 
 // оборачиваем для того чтобы навбар был на всех страницах
@@ -20,7 +21,9 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/service" element={<Service />} />
         <Route path="/about" element={<About />} />
+        <Route path="/addmenu" element={<Addmenu />} />
       </Route>
+      
     </Routes>
     
   );
